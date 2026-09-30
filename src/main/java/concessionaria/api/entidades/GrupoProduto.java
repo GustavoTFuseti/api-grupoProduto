@@ -1,10 +1,11 @@
-package entidades;
+package concessionaria.api.entidades;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
+@Table(name = "grupo_produto")
 @Getter
 @Setter
 
@@ -18,4 +19,4 @@ public class GrupoProduto {
         private String nome;
 
         public GrupoProduto() {}
-    }
+}
